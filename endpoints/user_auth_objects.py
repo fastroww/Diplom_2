@@ -1,6 +1,6 @@
 import allure
 import requests
-from tests.data import (API_BASE_URL, LOGIN_ENDPOINT, INVALID_CREDENTIALS, ERROR_INVALID_CREDENTIALS)
+from data import (API_BASE_URL, LOGIN_ENDPOINT, INVALID_CREDENTIALS, ERROR_INVALID_CREDENTIALS)
 
 
 class UserAuth:

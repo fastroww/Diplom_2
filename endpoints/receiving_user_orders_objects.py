@@ -1,7 +1,7 @@
 import allure
 import requests
 from endpoints.order_creation_objects import OrderCreation
-from tests.data import API_BASE_URL, ORDERS_ENDPOINT
+from data import API_BASE_URL, ORDERS_ENDPOINT
 
 
 class UserOrderRetrieval(OrderCreation):

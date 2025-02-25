@@ -1,7 +1,7 @@
 import allure
 from endpoints.user_data_modification_objects import UserDataModification
 from endpoints.create_user_objects import UserRegistration
-from tests.data import RANDOM_EMAIL, RANDOM_NAME
+from data import RANDOM_EMAIL, RANDOM_NAME
 
 
 class TestUserRegistrationAndModification:

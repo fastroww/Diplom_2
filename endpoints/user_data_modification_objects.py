@@ -1,7 +1,7 @@
 import allure
 import requests
 from endpoints.user_auth_objects import UserAuth
-from tests.data import API_BASE_URL, ERROR_UNAUTHORIZED, USER_UPDATE_ENDPOINT
+from data import API_BASE_URL, ERROR_UNAUTHORIZED, USER_UPDATE_ENDPOINT
 
 
 class UserDataModification(UserAuth):

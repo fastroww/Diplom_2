@@ -1,6 +1,6 @@
 import pytest
 import requests
-from tests.data import API_BASE_URL, REGISTER_ENDPOINT, USER_DELETE_ENDPOINT
+from data import API_BASE_URL, REGISTER_ENDPOINT, USER_DELETE_ENDPOINT
 from tests.generate_user_data import generate_random_user_data
 
 
